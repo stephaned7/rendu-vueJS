@@ -1,0 +1,36 @@
+.container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+    background-color: blue;
+}
+
+img{ 
+    width: 200px;
+    height: 250px;
+    margin: 15px ; 
+}
+
+h1{
+    text-align: center;
+}
+
+img:hover {
+
+    opacity: 0.9;
+
+    cursor: pointer;
+
+}
+body {
+
+    margin-top: 200px;
+
+    text-align: center;
+
+}
+
+#reset{ 
+    display: none;
+}

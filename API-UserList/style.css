@@ -1,0 +1,98 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchBar input {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 10px;
+  outline: none;
+}
+
+.searchBar label {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 1s ease-in-out;
+}
+
+.card:hover {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 100%;
+  margin-right: 3%;
+}
+
+.nom,
+.mail,
+.tel {
+  display: flex;
+  width: 30%;
+}
+
+.nom{
+    font-weight: bold;
+}
+
+.mail,
+.tel {
+  margin-left: 10%;
+}
+
+.hidden {
+  display: none;
+}

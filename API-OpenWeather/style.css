@@ -1,0 +1,23 @@
+*::before,
+*::after * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(90deg, #ffffff, #3780b0);
+  text-align: center;
+  line-height: 1.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#temp{
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}

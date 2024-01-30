@@ -1,0 +1,35 @@
+*::before,
+*::after * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(295deg, rgb(29, 184, 215), rgb(255, 155, 61));
+  height: 100vh;
+}
+body .gameBoard {
+  font-family: "permanent marker", sans-serif;
+  text-align: center;
+}
+body .gameBoard .cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+body .gameBoard .cellContainer .cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid black;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+}
+body .gameStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=morpion.css.map */

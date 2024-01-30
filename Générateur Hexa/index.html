@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/hexa.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="colorDisplay" id="colorDisplay1">
+        Color1:
+        <span id="hex1" class="hexCode"> #ab180e </span>
+        <input type="color" id="color1"/>
+      </div>
+  
+      <div class="colorDisplay" id="colorDisplay2">
+        Color2:
+        <span id="hex2" class="hexCode"> #1f17bf </span>
+        <input type="color" id="color2"/>
+      </div>
+
+    <div class="labInput">
+      <label for="Orientation" id="angleNumber">Orientation: 180°</label>
+      <input type="range" id="range" min="0" max="360" />
+    </div>
+
+    <div class="utilityButtons">
+      <button id="copy">Copier</button>
+      <button id="random">Random</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

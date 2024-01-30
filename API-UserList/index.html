@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User list</title>
+</head>
+<body>
+
+    <div class="searchBar">
+        <label for="search">Rechercher un utilisateur</label>
+        <input type="text" id="search" data-search>
+    </div>
+
+    <h1>Utilisateurs</h1>
+
+    <div class="cardHeader">
+        <h2>Nom</h2>
+        <h2>Email</h2>
+        <h2>Tel</h2>
+    </div>
+
+    <div class="userInfoContainer" data-user-cards-container></div>
+
+
+    <template data-user-template>
+        <div class="content">
+        <div class="card">
+            <div class="userInfo">
+            <img src="" alt="" class="userPic" data-user-picture>
+                <div class="name nom" data-user-name></div>
+                <div class="email mail" data-user-email></div>
+                <div class="phoneNum tel" data-user-phone></div>
+            </div>
+        </div>
+    </div>
+    </template>
+
+    <script src="./script.js"></script>
+</body>
+</html>
